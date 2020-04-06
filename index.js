@@ -103,7 +103,7 @@ class DownloaderModule extends Module {
     }
 }
 
-module.exports = new DownloaderModule();
+module.exports = DownloaderModule;
 module.exports.DownloadPipeline = DownloadPipeline;
 module.exports.MiniSearch = MiniSearch;
 module.exports.puppeteer = puppeteer;
